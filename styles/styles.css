@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.topHome{
+    color: #16a34a;
+    padding: 10px;
+}
+
+.navContainer{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+   
+}
+
+
+
+.logo{
+    width: 120px;
+    height: auto;
+    
+}
+
+.navLinks ul {
+  display: flex;
+  gap: 32px;        /* consistent spacing */
+  list-style: none;
+}
+
+
+.navLinks a {
+  text-decoration: none;
+  font-size: 15px;        /* good navbar size */
+  font-weight: 500;
+  color: #111827;         /* soft dark color */
+ 
+}
+
+/* Hover effect */
+.btnPrimary:hover,
+.btnHeroPrimary:hover,
+.btnSecondary:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
+
+
+
+
+.btnPrimary {
+  display: flex;
+  align-items: center;        /* Top ↕ Bottom center */
+  justify-content: center;    /* Left ↔ Right center */
+
+  background-color: #16a34a;
+  color: #ffffff;
+  padding: 20px 18px;
+  border-radius: 6px;
+  font-family: Verdana;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* ---------- NAV END ---------- */
+/* ---------- HERO START ---------- */
+
+/* hero section */
+/* HERO SECTION */
+.hero {
+  min-height: 100vh; /* Full screen height */
+  background: linear-gradient(
+      rgba(10, 30, 50, 0.85),
+      rgba(10, 30, 50, 0.85)
+    ),
+    url("Banner.png") center/cover no-repeat;
+
+  display: flex;
+  align-items: center;      /* Vertical center */
+  justify-content: center;  /* Horizontal center */
+}
+
+/* HERO CONTAINER */
+.heroContainer {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+/* HERO CONTENT */
+.heroContent {
+  text-align: center;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* BADGE / HEADING */
+.heroBadge h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.heroBadge h1 span {
+  color: #38b26c; /* green highlight */
+}
+
+/* DESCRIPTION */
+.heroDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #d1d5db;
+  margin-bottom: 30px;
+}
+
+/* BUTTONS */
+.hero-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* PRIMARY BUTTON */
+.btnHeroPrimary {
+  background: #38b26c;
+  color: #ffffff;
+  padding: 14px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* SECONDARY BUTTON */
+.btnSecondary {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 14px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+/* =================Finished Banner Section ======================*/
+
+/*=============Started eas (Early Access Section)============== */
+
+/* CTA SECTION */
+.eas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+
+/* eas CONTAINER */
+.easContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #f9f7f2;
+  border-radius: 16px;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+
+/* TITLE */
+.easTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0b1f33;
+  margin-bottom: 16px;
+}
+
+/* DESCRIPTION */
+.easDescription {
+  font-size: 1.1rem;
+  color: #5f6f82;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+/* BUTTON */
+.easButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  background: #3b8d5a;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 10px;
+
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.easButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(59, 141, 90, 0.3);
+}
+
+/* SMALL NOTE */
+.easNote {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #7a8a9e;
+}
+
+/* How to make all elements into center into sec */
+
+.easContainer {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
