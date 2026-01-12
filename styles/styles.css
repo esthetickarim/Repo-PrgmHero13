@@ -231,4 +231,91 @@
 }
 
 
+/* The end */
+/* Started notes section */
 
+
+/* Section background */
+.notes-section {
+  background-color: #fbf8f8;
+  padding: 80px 20px;
+  /* color: #ffffff; */
+}
+
+/* Center container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Title area */
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0b3a63;
+}
+
+.section-header p {
+  font-size: 16px;
+  color: #b5c1cc;
+  max-width: 600px;
+  margin: 12px auto 0;
+}
+
+/* Cards grid */
+.notes-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* Individual card */
+.note-card {
+  background-color: #ffffff;
+  color: #000;
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.note-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Icon */
+.note-card .icon {
+  width: 56px;
+  height: 56px;
+  background-color: #ff5a5a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.note-card img {
+  width: 24px;
+}
+
+/* Card text */
+.note-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.note-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+==============================================================
+              /* Finished Notes Section */
+              ==============================
